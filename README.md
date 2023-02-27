@@ -10,14 +10,14 @@
 Clone the repository:
 
 ```
-git clone git clone https://github.com/praveenpatel95/frontednNews.git
+git clone git clone https://github.com/praveenpatel95/NewsBackDesign.git
 
 
 ```
 
 Then cd into the folder with this command:
 ```
-cd frontednNews
+cd NewsBackDesign
 ```
 
 Install node modules with below command:
