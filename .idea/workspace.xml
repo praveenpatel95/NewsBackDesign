@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c01ebc9f-609d-4ef8-829e-7c167151ac15" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2MGbQ02PDfuUWr7tEbcca9xWXID" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/reactserver/NewsBackend",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\reactserver\inc_news\src\Containers\Articles\NyTimes" />
+      <recent name="D:\reactserver\inc_news\src\Containers\Articles" />
+      <recent name="D:\reactserver\inc_news\src\stores" />
+      <recent name="D:\reactserver\inc_news\src\Containers\Articles\NewsAPI" />
+      <recent name="D:\reactserver\inc_news\src\Containers\Articles\TheGuardian" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\reactserver\inc_news\src\Components" />
+      <recent name="D:\reactserver\inc_news\src\Containers\Articles\TheGuardian" />
+      <recent name="D:\reactserver\inc_news\src\Containers\Articles\NewsAPI" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c01ebc9f-609d-4ef8-829e-7c167151ac15" name="Changes" comment="" />
+      <created>1677396846240</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677396846240</updated>
+      <workItem from="1677396847324" duration="3463000" />
+      <workItem from="1677415773012" duration="3811000" />
+      <workItem from="1677419827925" duration="1373000" />
+      <workItem from="1677472836186" duration="27257000" />
+      <workItem from="1677505977636" duration="9046000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
