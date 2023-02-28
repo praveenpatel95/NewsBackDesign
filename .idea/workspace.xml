@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c01ebc9f-609d-4ef8-829e-7c167151ac15" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Containers/Articles/NewsAPI/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/Articles/NewsAPI/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Containers/Articles/NyTimes/Sources/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/Articles/NyTimes/Sources/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Containers/Articles/NyTimes/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/Articles/NyTimes/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Containers/Articles/TheGuardian/Article/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/Articles/TheGuardian/Article/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Containers/Articles/TheGuardian/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/Articles/TheGuardian/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Containers/Auth/Login/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/Auth/Login/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Containers/WebLayout/Header/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/WebLayout/Header/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Containers/account/NewsFeedSetting/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/account/NewsFeedSetting/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +62,7 @@
       <workItem from="1677472836186" duration="27257000" />
       <workItem from="1677505977636" duration="9046000" />
       <workItem from="1677516942997" duration="838000" />
-      <workItem from="1677557564965" duration="799000" />
+      <workItem from="1677557564965" duration="926000" />
     </task>
     <servers />
   </component>

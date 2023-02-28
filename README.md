@@ -10,7 +10,7 @@
 Clone the repository:
 
 ```
-git clone git clone https://github.com/praveenpatel95/NewsBackDesign.git
+git clone https://github.com/praveenpatel95/NewsBackDesign.git
 
 
 ```
