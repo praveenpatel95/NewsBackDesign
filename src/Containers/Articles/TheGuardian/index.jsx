@@ -12,8 +12,6 @@ import ArticleSearchBar from "../../../Components/ArticleSearchBar";
 import useValidator from "../../../utils/useValidator";
 import * as Yup from "yup";
 import {getTheGuardianArticles} from "../../../stores/TheGuardian/actions";
-import Box from "@mui/material/Box";
-
 
 function NewsAPI() {
     const [selectedSource, setSelectedSource] = useState('');
@@ -41,8 +39,6 @@ function NewsAPI() {
     const {
         values,
         setValues,
-        touched,
-        errors,
         handleSubmit,
     } = useValidator({
         initialValues: {

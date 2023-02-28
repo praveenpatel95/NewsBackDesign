@@ -1,7 +1,6 @@
-import {Card, CardActions, CardContent, CardMedia, Chip} from "@mui/material";
+import {Card, CardActions, CardContent} from "@mui/material";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
-import LazyLoad from 'react-lazyload';
 import moment from "moment/moment";
 
 function Article({article, index}) {

@@ -21,7 +21,6 @@ const api = (token, headersParams, isHandlerDisabled) => {
     if (!isHandlerDisabled)
         axiosInstance.interceptors.response.use(
             (response) => {
-                console.log("response", response)
                 if (
                     response.status === "error" ||
                     response.status === "failed"

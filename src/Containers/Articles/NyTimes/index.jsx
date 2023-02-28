@@ -1,6 +1,6 @@
 import {Helmet, HelmetProvider} from "react-helmet-async";
 import Container from "@mui/material/Container";
-import {Grid} from "@mui/material";
+import {Grid, Pagination} from "@mui/material";
 import Sources from "./Sources";
 import {useEffect, useState} from "react";
 import {useSearchParams} from "react-router-dom";
@@ -12,6 +12,7 @@ import ArticleSearchBar from "../../../Components/ArticleSearchBar";
 import useValidator from "../../../utils/useValidator";
 import * as Yup from "yup";
 import {getNyTimesArticles} from "../../../stores/NyTimes/actions";
+import Box from "@mui/material/Box";
 
 
 function NyTimes() {
@@ -40,8 +41,6 @@ function NyTimes() {
     const {
         values,
         setValues,
-        touched,
-        errors,
         handleSubmit,
     } = useValidator({
         initialValues: {
@@ -60,7 +59,11 @@ function NyTimes() {
 
     useEffect(() => {
         searchArticles()
-    }, [orderBy]);
+    }, [orderBy, page]);
+
+    const handleChangePage = (event, value) => {
+        setPage(value)
+    }
 
     const searchArticles = () => {
         let url = `?q=${values?.keyword}&sort=${orderBy}&page=${page}`;
@@ -105,6 +108,10 @@ function NyTimes() {
                                         </Grid>
 
                                     ))}
+                                    <Box mt={3}>
+                                        <Pagination count={nyTimesArticles?.length} page={page} color="primary"
+                                                    onChange={handleChangePage}/>
+                                    </Box>
                                 < /Grid>
                                 :
                                 "No Data found"

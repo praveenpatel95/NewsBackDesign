@@ -1,9 +1,5 @@
-import {Card, CardContent, Checkbox, FormControl, FormControlLabel, FormGroup, InputLabel, Select} from "@mui/material";
+import {Card, CardContent, FormControl, InputLabel, Select} from "@mui/material";
 import Typography from "@mui/material/Typography";
-import {useDispatch, useSelector} from "react-redux";
-import Loader from "../../../../Components/Loader";
-import {useEffect} from "react";
-import {getTheGuardianSources} from "../../../../stores/TheGuardian/actions";
 import MenuItem from "@mui/material/MenuItem";
 
 function Sources({orderBy, setOrderBy}) {

@@ -1,22 +1,14 @@
 import {Helmet, HelmetProvider} from "react-helmet-async";
 import Container from "@mui/material/Container";
-import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import {
-    Alert,
     Card,
     CardContent,
     FormControl,
-    FormHelperText,
     Grid,
-    InputAdornment,
     InputLabel, Select,
-    TextField
 } from "@mui/material";
 import Button from "@mui/material/Button";
-import Loader from "../../../Components/Loader";
-import {Link} from "react-router-dom";
-import SearchIcon from "@mui/icons-material/Search";
 import MenuItem from "@mui/material/MenuItem";
 
 function NewsFeedSetting() {

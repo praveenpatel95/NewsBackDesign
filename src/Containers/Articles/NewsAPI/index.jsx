@@ -45,8 +45,6 @@ function NewsAPI() {
     const {
         values,
         setValues,
-        touched,
-        errors,
         handleSubmit,
     } = useValidator({
         initialValues: {

@@ -2,12 +2,12 @@ import {Helmet, HelmetProvider} from "react-helmet-async";
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
-import {Alert, FormHelperText, Grid, TextField} from "@mui/material";
+import { FormHelperText, Grid, TextField} from "@mui/material";
 import Button from "@mui/material/Button";
 import Loader from "../../../Components/Loader";
 import {Link} from "react-router-dom";
 import {useDispatch, useSelector} from "react-redux";
-import {login, register} from "../../../stores/Auth/actions";
+import {login} from "../../../stores/Auth/actions";
 import useValidator from "../../../utils/useValidator";
 import * as Yup from "yup";
 import {useEffect, useState} from "react";
@@ -54,7 +54,7 @@ function Login() {
 
 
     useEffect(() => {
-        if(typeof loginError === 'object' && loginError != undefined){
+        if(typeof loginError === 'object' && loginError !== undefined){
             setError( Object.values(loginError).join(", "));
         }
     }, [loginError]);
