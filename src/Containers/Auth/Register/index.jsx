@@ -63,7 +63,7 @@ function Register() {
 
     const [error, setError] = useState('');
     useEffect(() => {
-        if(typeof registerError === 'object' && registerError != undefined){
+        if(registerError && typeof registerError === 'object' && registerError !== undefined){
             setError( Object.values(registerError).join(", "));
         }
     }, [registerError]);
@@ -85,7 +85,9 @@ function Register() {
                             Register
                         </Typography>
                         {isRegistered &&
-                            <Alert severity="error">You are already registered, Please login!</Alert>
+                            <Alert severity="success">You are registered successfully, Please  <Button as={Link} to="/login" color="inherit" className="green_text">
+                                login!
+                            </Button></Alert>
                         }
 
                         <Typography component="p" align="center" className="grey" py={3}>

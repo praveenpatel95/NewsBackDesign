@@ -54,7 +54,7 @@ function Login() {
 
 
     useEffect(() => {
-        if(typeof loginError === 'object' && loginError !== undefined){
+        if(loginError && typeof loginError === 'object' && loginError !== undefined){
             setError( Object.values(loginError).join(", "));
         }
     }, [loginError]);
